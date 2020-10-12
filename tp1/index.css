@@ -1,0 +1,15 @@
+.text{
+	text-align: center; /* permet de centré "Ingénieur d'étude et développement"*/
+}
+
+
+
+.lien a{
+
+	color: black; /*donne la couleur noir au lien "formation" */
+	text-decoration: none; /*permet d'obtenir un lien non souligné*/
+}
+
+body{
+	background-color: lightgreen;
+}
