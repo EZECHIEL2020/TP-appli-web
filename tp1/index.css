@@ -1,15 +1,29 @@
-.text{
-	text-align: center; /* permet de centré "Ingénieur d'étude et développement"*/
-}
-
-
-
-.lien a{
-
-	color: black; /*donne la couleur noir au lien "formation" */
-	text-decoration: none; /*permet d'obtenir un lien non souligné*/
-}
-
 body{
-	background-color: lightgreen;
+	background-color: gray;
+}
+
+
+
+.ani h1 span{
+	color: crimson;
+}
+
+a{
+	
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	background: crimson;
+    color: black;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+
+
+
+}
+
+.btn:hover{
+	background: green;
 }
