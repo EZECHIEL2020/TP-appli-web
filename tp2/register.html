@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+
+	<tile></title>
+</head>
+<body>
+
+	<form class="login_form" method="post" name="form" onsubmit="return validated()">
+		<label for="Nom">Nom</label>
+		<input type="text" id="nom" name="Nom" placeholder="Enter your given name" maxlength=5 />
+
+	</br>
+
+		<label for="Prenom">Prenom</label>
+		<input type="text" id="prenom" name="Prenom" placeholder="Enter your First Name" maxlength=5 />
+		
+   </br>
+		<label for="Prenom">Date de Name </label>
+		<input type="date" id="date" name="Date" placeholder="Enter your birth date"  />
+ </br>
+        <label for="adresse">Adresse</label>
+		<input type="text" id="Adresse" name="adresse" placeholder="Enter your adress"/>
+</br>
+		<label for="Prenom">Mail</label>
+		<input type="text" id="Adresse" name="Prenom" placeholder="Enter your adress"/>
+			<div id="email_error"> remplissez la case svp</div>
+</br>
+</br>
+		<label for="Prenom">Password</label>
+		<input type="password" id="Password" name="Password" placeholder="Enter your password"/>
+			<div id="pass_error"> remplissez la case svp</div>
+</br>
+
+<p>
+	<input type="button" value="Valider" onclick="Validation()"/>
+</p>
+
+
+	</form>
+	
+	
+
+</body>
+</html>
